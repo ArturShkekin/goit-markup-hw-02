@@ -1,0 +1,216 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.span,
+.link:hover,
+.nav-link:hover,
+.mail-link:hover,
+.link:focus,
+.nav-link:focus,
+.mail-link:focus {
+    color: #2196f3;
+}
+
+.link {
+    color: #000000;
+}
+
+.nav-link {
+    color: #212121;
+}
+
+.mail-link {
+    color: #757575;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    background: #2196F3;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
+
+.button:hover,
+.button:focus {
+    background: #188ce8;
+}
+
+.invisible-title {
+    color: #ffffff;
+}
+
+.feature-antenna,
+.feature-clock,
+.feature-diagram,
+.feature-astronaut {
+    color: #212121;
+    width: 70px;
+    height: 70px;
+}
+
+.feature-title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-text {
+    color: #757575;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.line-hr {
+    width: 1170px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+}
+
+.doing-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.doing-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.team-title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    color: #212121;
+    font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-position {
+    color: #757575;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.social-network {
+    color: #afb1b8;
+    width: 44px;
+    height: 44px;
+}
+
+.our-clients {
+    color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: #2f303a;
+}
+
+.logo-footer {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer-part {
+    color: #2196f3;
+}
+
+.footer-address {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+  
+.footer-address-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-social {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+    
+.footer-email-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-email {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px
+}

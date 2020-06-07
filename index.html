@@ -3,129 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Студия</title>
 </head>
 <body>
     <!--Шапка страницы-->
     <header>
         <nav>
-            <a href="https://www.webstudio.com"><p><b><span>Web</span> Studio</b></p></a>
+            <a href="https://www.webstudio.com" class="link"><p class="logo"><b><span class="span">Web</span> Studio</b></p></a>
              <ul>
-                <li><a href="index.html">Студия</a></li>   
-                <li><a href="portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="index.html" class="nav-link">Студия</a></li>   
+                <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                <li><a href="" class="nav-link">Контакты</a></li>
             </ul>
        </nav>
        <ul>
            <li><img src="./img/envelope1.svg" alt="значек почты">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <a href="mailto:info@devstudio.com" class="mail-link">info@devstudio.com</a></li>
            <li><img src="./img/Vector2.svg" alt="значек телефона">
-            <a href="tel:+380961111111">+380961111111</a></li>
+            <a href="tel:+380961111111" class="mail-link">+380961111111</a></li>
        </ul>
     </header> 
     <!--основная часть-->
     <main>
         <section>
-            <h1><b> ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</b></h1>
-             <button>Заказать услугу</button>
+            <h1 class="main-title"><b> ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</b></h1>
+             <button class="button">Заказать услугу</button>
         </section>
     <!--навыки-->
     <section>
-        <h2>Навыки</h2>
+        <h2 class="invisible-title">Навыки</h2>
         <ul>
-            <li> <img src="./img/Rectangle1.svg"  alt="антена">
-                 <h3>Внимание к деталям</h3>
-                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <li> <img src="./img/antenna1.svg"  alt="антена" class="feature-antenna">
+                 <h3 class="feature-title">Внимание к деталям</h3>
+                 <p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             <li>
-                <img src="./img/Rectangle2.svg" alt="часы">
-                <h3>Пунктуальность</h3>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <img src="./img/clock1.svg" alt="часы" class="feature-clock">
+                <h3 class="feature-title">Пунктуальность</h3>
+                <p class="feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li>
-                <img src="./img/Rectangle3.svg" alt="диаграмма">
-                <h3>Планирование</h3>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p> 
+                <img src="./img/diagram1.svg" alt="диаграмма" class="feature-diagram">
+                <h3 class="feature-title">Планирование</h3>
+                <p class="feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p> 
             </li>
             <li>
-                <img src="./img/Rectangle4.svg" alt="астронавт">
-                <h3>Современные технологии</h3>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>   
+                <img src="./img/astronaut1.svg" alt="астронавт" class="feature-astronaut">
+                <h3 class="feature-title">Современные технологии</h3>
+                <p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>   
             </li>
         </ul>
     </section>
-    <hr>
+    <hr class="line-hr">
     <!--чем мы занимаемся-->
     <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="doing-title">Чем мы занимаемся</h2>
         <ul>
             <li>
                 <img src="./img/img5.jpg" alt="компьютер" width="370">
-            <h3>десктопные приложения</h3>
+            <h3 class="doing-text">десктопные приложения</h3>
             </li>
             <li>
                 <img src="./img/img6.jpg" alt="мобильный телефон" width="370">
-                <h3>мобильные приложения</h3>
+                <h3 class="doing-text">мобильные приложения</h3>
             </li>
             <li>
                 <img src="./img/img7.jpg" alt="экран монитора" width="370">
-                <h3>дизайнерские решения</h3>
+                <h3 class="doing-text">дизайнерские решения</h3>
             </li>
         </ul>
     </section>
     <!--наша команда-->
     <section>
-        <h2>Наша команда</h2>
+        <h2 class="team-title">Наша команда</h2>
         <ul>
             <li>
-                <img src="./img/img1.jpg"  alt="фото Джона">
-                <h3>John Smith</h3>
-                <p>Product Designer</p>
+                <img src="./img/img1.jpg"  alt="фото Джона" width="270">
+                <h3 class="team-name">John Smith</h3>
+                <p class="team-position">Product Designer</p>
                 <ul>
-                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер"></a></li>
-                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук"></a></li>
-                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм" class="social-network"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер" class="social-network"></a></li>
+                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук" class="social-network"></a></li>
+                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин" class="social-network"></a></li>
                 </ul>
             </li>
             <li>
-                <img src="./img/img2.jpg"  alt="фото Марты">
-                <h3>Marta Stewart</h3>
-                <p>Frontend Developer</p>
+                <img src="./img/img2.jpg"  alt="фото Марты" width="270">
+                <h3 class="team-name">Marta Stewart</h3>
+                <p class="team-position">Frontend Developer</p>
                 <ul>
-                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер"></a></li>
-                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук"></a></li>
-                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм" class="social-network"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер" class="social-network"></a></li>
+                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук" class="social-network"></a></li>
+                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин" class="social-network"></a></li>
                 </ul>
             </li>
             <li>
-                <img src="./img/img3.jpg"  alt="фото Роберта">
-                <h3>Robert Jakis</h3>
-                <p>Marketing</p>
+                <img src="./img/img3.jpg"  alt="фото Роберта" width="270">
+                <h3 class="team-name">Robert Jakis</h3>
+                <p class="team-position">Marketing</p>
                 <ul>
-                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер"></a></li>
-                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук"></a></li>
-                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм" class="social-network"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер" class="social-network"></a></li>
+                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук" class="social-network"></a></li>
+                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин" class="social-network"></a></li>
                 </ul> 
             </li>
             <li>
-                <img src="./img/img4.jpg"  alt="фото Мартина">
-                <h3>Martin Doe</h3>
-                <p>UI Desinger</p>
+                <img src="./img/img4.jpg"  alt="фото Мартина" width="270">
+                <h3 class="team-name">Martin Doe</h3>
+                <p class="team-position">UI Desinger</p>
                 <ul>
-                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм"></a></li>
-                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер"></a></li>
-                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук"></a></li>
-                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин"></a></li>
+                    <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм" class="social-network"></a></li>
+                    <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер" class="social-network"></a></li>
+                    <li><a href="https://www.facebook.com"><img src="./img/Ellipse3.svg" alt="значек фейсбук" class="social-network"></a></li>
+                    <li><a href="https://www.linkedin.com"><img src="./img/Ellipse4.svg" alt="значек линкедин" class="social-network"></a></li>
                 </ul> 
             </li>
         </ul>
     </section>
     <!--постоянные клиенты--> 
     <section>
-        <h3>Постоянные клиенты</h3>
+        <h2 class="our-clients">Постоянные клиенты</h2>
         <ul>
             <li><img src="./img/Client1.svg" alt="компания 1"></li>
             <li><img src="./img/Client2.svg" alt="компания 2"></li>
@@ -137,16 +139,15 @@
     </section>
     </main> 
     <!--подвал-->
-     <footer>
-        <p><b><span>Web</span> Studio</b></p>
+     <footer class="footer">
+        <p class="logo-footer"><b><span class="logo-footer-part">Web</span> Studio</b></p>
         <address>
-            г. Киев, пр-т Леси Украинки,26 <br> 
-            info@example.com <br>
-            +38 099 111 11 11
+            <span class="footer-address">г.Киев, пр-т Леси Украинки,26</span> <br> 
+            <span class="footer-address-contacts">info@example.com <br>
+            +38 099 111 11 11</span>
         </address>
         <section>
-            <h3>Присоединяйтесь</h3>
-            <p><b>присоединяйтесь</b></p>
+            <h3 class="footer-social">присоединяйтесь</h3>
             <ul>
                 <li><a href="https://www.instagram.com"><img src="./img/Ellipse1.svg" alt="значек инстаграмм"></a></li>
                 <li><a href="https://www.twitter.com"><img src="./img/Ellipse2.svg" alt="значек твиттер"></a></li>
@@ -155,9 +156,8 @@
             </ul> 
         </section>
         <section>
-            <h3>Подписка</h3>
-            <p><b>подпишитесь на рассылку</b></p>
-            <input type="text" value="E-mail" >
+            <h3 class="footer-email-title">подпишитесь на рассылку</h3>
+            <input type="text" value="E-mail" class="footer-email">
             <button>Подписаться<img src="./img/iconsend.svg" alt="значек"></button>
         </section>
         <hr>
