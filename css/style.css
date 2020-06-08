@@ -38,7 +38,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -49,7 +48,6 @@ body {
     font-size: 16px;
     line-height: 30px;
     color: #ffffff;
-    position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
@@ -232,5 +230,57 @@ letter-spacing: 0.03em;
     font-weight: 900;
     font-size: 16px;
     line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.footer-signature {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.portfolio-title {
+    color: #FFFFFF;
+}
+
+.portfolio-all {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-filters {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.project-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.project-value {
+    color: #757575;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.project-name {
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
     letter-spacing: 0.06em;
 }
