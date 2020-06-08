@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 .logo {
@@ -89,12 +89,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.line-hr {
-    width: 1170px;
-    height: 0px;
-    border: 1px solid #ECECEC;
-}
-
 .doing-title {
     font-weight: bold;
     font-size: 36px;
@@ -113,22 +107,24 @@ body {
     
 }
 
+.team {
+    background: #F5F4FA;
+}
+
 .team-title {
     color: #212121;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
 .team-name {
     color: #212121;
     font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
 }
 
 .team-position {
@@ -136,7 +132,6 @@ letter-spacing: 0.03em;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -151,7 +146,6 @@ letter-spacing: 0.03em;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -284,3 +278,4 @@ letter-spacing: 0.03em;
     line-height: 36px;
     letter-spacing: 0.06em;
 }
+
