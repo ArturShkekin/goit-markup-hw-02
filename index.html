@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,11 @@
     <!--Шапка страницы-->
     <header>
         <nav>
-            <a href="https://www.webstudio.com" class="link"><p class="logo"><b><span class="span">Web</span> Studio</b></p></a>
+            <a href="https://www.webstudio.com" class="link"><p class="logo"><b><span class="span-logo">Web</span> Studio</b></p></a>
              <ul>
                 <li><a href="index.html" class="nav-link">Студия</a></li>   
                 <li><a href="portfolio.html" class="nav-link">Портфолио</a></li>
-                <li><a href="" class="nav-link">Контакты</a></li>
+                <li><a href="www.webstudio.com" class="nav-link">Контакты</a></li>
             </ul>
        </nav>
        <ul>
@@ -129,22 +129,24 @@
     <section>
         <h2 class="our-clients">Постоянные клиенты</h2>
         <ul>
-            <li><img src="./img/Client1.svg" alt="компания 1"></li>
-            <li><img src="./img/Client2.svg" alt="компания 2"></li>
-            <li><img src="./img/Client3.svg" alt="компания 3"></li>
-            <li><img src="./img/Client4.svg" alt="компания 4"></li>
-            <li><img src="./img/Client5.svg" alt="компания 5"></li>
-            <li><img src="./img/Client6.svg" alt="компания 6"></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client1.svg" alt="компания 1"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client2.svg" alt="компания 2"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client3.svg" alt="компания 3"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client4.svg" alt="компания 4"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client5.svg" alt="компания 5"></a></li>
+            <li><a href="https://www.facebook.com"><img src="./img/Client6.svg" alt="компания 6"></a></li>
         </ul>
     </section>
     </main> 
     <!--подвал-->
      <footer class="footer">
-        <p class="logo-footer"><b><span class="logo-footer-part">Web</span> Studio</b></p>
+        <a href="https://www.webstudio.com" class="logo-footer"><p><span class="logo-footer-part">Web</span> Studio</p></a>
         <address>
-            <span class="footer-address">г.Киев, пр-т Леси Украинки,26</span> <br> 
-            <span class="footer-address-contacts">info@example.com <br>
-            +38 099 111 11 11</span>
+            <span class="footer-address">г.Киев, пр-т Леси Украинки,26</span> 
+            <ul>
+                <li><a href="mailto:info@example.com" class="footer-address-contacts">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="footer-address-contacts">+38 099 111 11 11</a></li>
+            </ul>
         </address>
         <section>
             <h3 class="footer-social">присоединяйтесь</h3>
@@ -158,9 +160,8 @@
         <section>
             <h3 class="footer-email-title">подпишитесь на рассылку</h3>
             <input type="text" value="E-mail" class="footer-email">
-            <button>Подписаться<img src="./img/iconsend.svg" alt="значек"></button>
+            <button class="footer-button">Подписаться<img src="./img/iconsend.svg" alt="значек"></button>
         </section>
-        <hr>
         <p>2020 | Developed by GoIT Students</p>
      </footer>
 </body>
