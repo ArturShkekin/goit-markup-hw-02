@@ -1,6 +1,10 @@
 body {
-    font-family: 'Roboto', 'Roboto Mono', 'Roboto Slab', sans-serif;
+    font-family: 'Roboto',  sans-serif;
     background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
@@ -28,10 +32,18 @@ body {
 
 .nav-link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .mail-link {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .main-title {
@@ -154,6 +166,7 @@ body {
 }
 
 .logo-footer {
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-weight: bold;
     font-size: 22px;
@@ -247,12 +260,20 @@ body {
     letter-spacing: 0.03em;
 }
 
-.portfolio-filters {
+.portfolio-div {
+    width: 100px;
+    background-color: #F5F4FA;
     color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.03em;
+}
+
+.portfolio-div:hover,
+.portfolio-div:focus {
+    background-color: #2196F3;
+    color: white;
 }
 
 .project-text {
@@ -278,4 +299,6 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
 }
+
+
 
