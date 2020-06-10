@@ -14,20 +14,17 @@ a {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .span-logo,
-.link:hover,
+.logo:hover,
+.logo:focus,
 .nav-link:hover,
 .mail-link:hover,
-.link:focus,
 .nav-link:focus,
 .mail-link:focus {
     color: #2196f3;
-}
-
-.link {
-    color: #000000;
 }
 
 .nav-link {
@@ -36,6 +33,14 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+}
+
+.nav-link-active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
 }
 
 .mail-link {
