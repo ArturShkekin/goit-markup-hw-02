@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto',  sans-serif;
     background: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -60,15 +62,18 @@ a {
 }
 
 .button {
-    background: #2196F3;
+    font-family: 'Roboto',  sans-serif;
+    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 30px;
+    letter-spacing: 0.06em;
     color: #ffffff;
     width: 200px;
     height: 50px;
     left: 700px;
     top: 430px;
+    background: #2196F3;
 }
 
 .button:hover,
@@ -189,6 +194,7 @@ a {
 
 .footer-address {
     color: #FFFFFF;
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -197,6 +203,7 @@ a {
   
 .footer-address-contacts {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -255,14 +262,6 @@ a {
 
 .portfolio-title {
     color: #FFFFFF;
-}
-
-.portfolio-all {
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
 }
 
 .portfolio-div {
